@@ -6,7 +6,7 @@
 #    By: vigomes- <vigomes-@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/16 08:59:25 by vigomes-          #+#    #+#              #
-#    Updated: 2026/05/16 14:01:12 by vigomes-         ###   ########.fr        #
+#    Updated: 2026/05/17 13:54:14 by vigomes-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -159,52 +159,52 @@ class Vegetables(Plant):
         return ret
 
 
-list_of_plants = {
-    0: {"name": "Rose", "height": 25.0, "age": 30, "grpd": 0.86},
-}
+# list_of_plants = {
+#     0: {"name": "Rose", "height": 25.0, "age": 30, "grpd": 0.86},
+# }
 
-list_of_flowers = {
-    0: {"name": "Rose", "height": 25.0, "age": 30,
-        "grpd": 0.86, "color": "White"}
-}
+# list_of_flowers = {
+#     0: {"name": "Rose", "height": 25.0, "age": 30,
+#         "grpd": 0.86, "color": "White"}
+# }
 
-list_of_tree = {
-    0: {"name": "Oak", "height": 200.0, "age": 1095,
-        "grpd": 10.0, "trunk_diameter": 5.0}
-}
+# list_of_tree = {
+#     0: {"name": "Oak", "height": 200.0, "age": 1095,
+#         "grpd": 10.0, "trunk_diameter": 5.0}
+# }
 
-list_of_veg = {
-    0: {"name": "Tomato", "height": 5.0, "age": 10,
-        "grpd": 2.1, "season": "April", "nutri": 1}
-}
-
-
-def main():
-    flower = Flower()
-    fl = list_of_flowers[0]
-    flower.get_info(name=fl["name"], height=fl["height"], plant_age=fl["age"],
-                    grow_level=fl["grpd"], color=fl["color"])
-    flower.show()
-    flower.bloom()
-    flower.show()
-    print("\n-----------------------------------------------\n")
-    tree = Tree()
-    tr = list_of_tree[0]
-    tree.get_info(name=tr["name"], height=tr["height"], plant_age=tr["age"],
-                  grow_level=tr["grpd"], trunk_diameter=tr["trunk_diameter"])
-    tree.show()
-    tree.produce_shade()
-    print("\n-----------------------------------------------\n")
-    veg = Vegetables()
-    vg = list_of_veg[0]
-    veg.get_info(name=vg["name"], height=vg["height"], plant_age=vg["age"],
-                 grow_level=vg["grpd"], harvest_season=vg["season"],
-                 nutritional_grow=vg["nutri"], nutritional_value=0)
-    veg.show()
-    veg.grow(20)
-    veg.show()
-    print("\n-----------------------------------------------\n")
+# list_of_veg = {
+#     0: {"name": "Tomato", "height": 5.0, "age": 10,
+#         "grpd": 2.1, "season": "April", "nutri": 1}
+# }
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     flower = Flower()
+#     fl = list_of_flowers[0]
+#     flower.get_info(name=fl["name"], height=fl["height"], plant_age=fl["age"],
+#                     grow_level=fl["grpd"], color=fl["color"])
+#     flower.show()
+#     flower.bloom()
+#     flower.show()
+#     print("\n-----------------------------------------------\n")
+#     tree = Tree()
+#     tr = list_of_tree[0]
+#     tree.get_info(name=tr["name"], height=tr["height"], plant_age=tr["age"],
+#                   grow_level=tr["grpd"], trunk_diameter=tr["trunk_diameter"])
+#     tree.show()
+#     tree.produce_shade()
+#     print("\n-----------------------------------------------\n")
+#     veg = Vegetables()
+#     vg = list_of_veg[0]
+#     veg.get_info(name=vg["name"], height=vg["height"], plant_age=vg["age"],
+#                  grow_level=vg["grpd"], harvest_season=vg["season"],
+#                  nutritional_grow=vg["nutri"], nutritional_value=0)
+#     veg.show()
+#     veg.grow(20)
+#     veg.show()
+#     print("\n-----------------------------------------------\n")
+
+
+# if __name__ == "__main__":
+#     main()
